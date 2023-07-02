@@ -8,7 +8,8 @@ class Servicio(models.Model):
     actualizado= models.DateTimeField(auto_now_add=True)                    
  
     class Meta:                                                  # class Meta -->  Algunas configuraciones de nuestro modelo
-        verbose_name= 'servicios La Coruña'                       # verbose_name  -->  En este caso te cambia como figura el nombre el el admin
+        verbose_name= 'Servicio La Coruña'                       # verbose_name  -->  En este caso te cambia como figura el nombre el el admin
+        verbose_name_plural = 'Servicios La Coruña'
       
 
     def __str__(self):
